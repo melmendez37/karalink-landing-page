@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavBar/>
+  <Jumbotron/>
+  <JumbotronTwo/>
+  <JumbotronThree/>
+  <Cards/>
+  <Footer/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import Footer from './components/Footer.vue'
+import JumbotronTwo from './components/JumbotronTwo.vue'
+import JumbotronThree from './components/JumbotronThree.vue'
+import Cards from './components/Cards.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavBar,
+    Jumbotron,
+    JumbotronTwo,
+    JumbotronThree,
+    Cards,
+    Footer,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Trebuchet MS', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
