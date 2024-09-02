@@ -1,9 +1,11 @@
 <template>
-  <div class="container py-5">
-      <div class="d-flex flex-column justify-content-center align-items-start h-100 w-100 p-4">
-        <p class="font-weight-light text-dark text-start display-3">Start your journey now <br/> and make every minute count.</p>
-        <button type="button" class="btn btn-outline-dark btn-lg mt-2">INSTALL NOW</button>
+  <div class="bg-dark">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-start h-100 p-4 bg-indigo">
+        <h1 class="font-weight-light bg-grey text-start display-4">Start your journey now <br/> and make every minute count.</h1>
+        <button type="button" class="btn btn-outline-light btn-lg mt-2">INSTALL NOW</button>
       </div>
+    </div>
   </div>
   
 </template>
@@ -18,7 +20,13 @@ export default {
 <style scoped>
 
 .container{
-  height: 400px;
-  width: 100%;
+  height: 500px;
+  width: max-vh-screen;
+}
+
+
+
+.bg-grey{
+  color: #d9d9d9;
 }
 </style>

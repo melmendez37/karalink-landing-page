@@ -1,6 +1,6 @@
 <template>
-  <nav class=" navbar navbar-expand-lg d-flex navbar-light bg-light">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg d-flex navbar-light bg-light">
+  <div class="container">
     <img class="rounded float-start" src="../assets/karalink-logo.png"/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,5 +31,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.container{
+  position: sticky;
+  z-index: 99;
+  flex-direction: row;
+}
 </style>
