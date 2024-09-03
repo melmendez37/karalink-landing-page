@@ -6,7 +6,7 @@
   " class="object-fit:cover h">
     <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.7);">
       <div class="d-flex justify-content-center align-items-center flex-column h-100">
-        <h1 class="fw-bold text-white p-2 display-1">Tap To Your<br/> Next Destination</h1>
+        <h1 class="fw-bold text-white p-4 display-3">Tap To Your<br/> Next Destination</h1>
           <button type="button" class="btn btn-outline-light btn-lg p-2">LEARN MORE</button>
       </div>
     </div>

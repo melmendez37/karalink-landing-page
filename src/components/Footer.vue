@@ -2,10 +2,12 @@
   <footer class="bg-body-tertiary text-center text-lg-start">
   <!-- Grid container -->
   <div class="container p-4">
+    
     <!--Grid row-->
-    <div class="row">
+    <div class="row justify-content-center">
+      
       <!--Grid column-->
-      <div class="col-lg-2 col-md-4 mb-3 mt-4 mb-md-0">
+      <div class="col-lg-2 col-md-4  mt-4 mb-md-0">
         <h5 class="text-uppercase">PRODUCTS</h5>
 
         <ul class="list-unstyled mb-0">
@@ -20,7 +22,7 @@
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-2 col-md-4 mb-3 mt-4 mb-md-0">
+      <div class="col-lg-2 col-md-4  mt-4 mb-md-0">
         <h5 class="text-uppercase mb-0">Our History</h5>
 
         <ul class="list-unstyled mb-0">
@@ -35,7 +37,7 @@
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-2 col-md-4 mb-3 mt-4 mb-md-0">
+      <div class="col-lg-2 col-md-4  mt-4 mb-md-0">
         <h5 class="text-uppercase">CUSTOMER SERVICE</h5>
 
         <ul class="list-unstyled mb-0">
@@ -50,7 +52,7 @@
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-2 col-md-4 mb-3 mt-4 mb-md-0">
+      <div class="col-lg-2 col-md-4  mt-4 mb-md-0">
         <h5 class="text-uppercase mb-0">Links</h5>
 
         <ul class="list-unstyled">
@@ -62,9 +64,11 @@
           </li>
         </ul>
       </div>
+      <!--Grid column-->
 
-      <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
-        <img class="h-50" src="../assets/karalink-logo.png" alt="Logo">
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-4  mb-md-0">
+        <img class="size" src="../assets/karalink-logo.png" alt="Logo">
 
         <ul class="list-unstyled">
           <li>
@@ -76,6 +80,7 @@
         </ul>
       </div>
       <!--Grid column-->
+
     </div>
     <!--Grid row-->
   </div>
@@ -83,8 +88,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2020 Copyright:
-    <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2024 KaraLink. All things are sampled here.
   </div>
   <!-- Copyright -->
 </footer>
@@ -98,5 +102,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.size{
+  height: 40%;
+}
 </style>

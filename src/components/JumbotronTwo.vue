@@ -2,7 +2,7 @@
   <div class="bg-dark">
     <div class="container">
       <div class="d-flex flex-column justify-content-center align-items-start h-100 p-4 bg-indigo">
-        <h1 class="font-weight-light bg-grey text-start display-4">Start your journey now <br/> and make every minute count.</h1>
+        <h2 class="fw-bold bg-grey text-start display-5">Start your journey now <br/> and make every minute count.</h2>
         <button type="button" class="btn btn-outline-light btn-lg mt-2">INSTALL NOW</button>
       </div>
     </div>
